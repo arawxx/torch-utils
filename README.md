@@ -1,2 +1,2 @@
 # torch-utils
-A library containing useful and frequently used PyTorch functions and classes.
+This repo contains new and usefil training / fine-tuning tricks for deep learning engineers.
