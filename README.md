@@ -1,2 +1,2 @@
 # torch-utils
-This repo contains new and usefil training / fine-tuning tricks for deep learning engineers.
+This repository contains new and useful functions and classes for Deep Learning engineers.
