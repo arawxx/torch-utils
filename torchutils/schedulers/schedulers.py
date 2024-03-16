@@ -6,7 +6,7 @@ from torch.optim.optimizer import Optimizer
 from torch.optim.lr_scheduler import _LRScheduler
 
 
-__all__ = ['WarmupCosineAnnealingLR']
+__all__ = ['CosineAnnealingLinearWarmup']
 
 
 class CosineAnnealingLinearWarmup(_LRScheduler):
