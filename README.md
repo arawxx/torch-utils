@@ -8,7 +8,8 @@ Example usage:
 ```python
 import torch
 from torch.optim import AdamW
-from schedulers import CosineAnnealingLinearWarmup
+from torchutils.schedulers import CosineAnnealingLinearWarmup
+
 
 # Initialize your model and dataloader
 # model = ...
