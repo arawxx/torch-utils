@@ -1,10 +1,19 @@
 # torch-utils
+
 This repository contains useful functions and classes for Deep Learning engineers using PyTorch.
 
+# Installation
+
+You can install this package using pip. The name of the package in PyPI is **pytorch-utilities**:
+
+`pip install pytorch-utilities`
+
 ## Cosine Annealing with Linear Warmup Learning Rate
+
 Using this scheduler is as simple as using a default PyTorch scheduler.
 
 Example usage:
+
 ```python
 import torch
 from torch.optim import AdamW
@@ -27,20 +36,20 @@ scheduler = CosineAnnealingLinearWarmup(optimizer, warmup_epochs=5, max_epochs=1
 for epoch in range(100):
     for inputs, targets in dataloader:
         optimizer.zero_grad()
-        
+      
         # Forward pass
         outputs = model(inputs)
-        
+      
         # Compute loss
         loss = loss_fn(outputs, targets)
-        
+      
         # Backward pass and optimization
         loss.backward()
         optimizer.step()
 
         # If you want to step the scheduler after each iteration (batch), uncomment the following line
         # scheduler.step()
-        
+      
     # If you're stepping the scheduler after each epoch, do it here
     scheduler.step()
 ```
