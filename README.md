@@ -63,6 +63,8 @@ Currently, only ViT models implemented in `timm`, or with layer names like the o
 Example Usage:
 
 ```python
+import timm
+import torch
 from torchutils.schedulers import layerwise_lrd
 
 
