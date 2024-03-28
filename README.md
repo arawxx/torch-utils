@@ -1,4 +1,5 @@
 # torch-utils
+[![Downloads](https://static.pepy.tech/badge/pytorch-utilities)](https://pepy.tech/project/pytorch-utilities)
 
 This repository contains useful functions and classes for Deep Learning engineers using PyTorch.
 
